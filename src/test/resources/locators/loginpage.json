@@ -1,0 +1,64 @@
+[
+  {
+    "key": "username",
+    "value": "input[placeholder='Username']",
+    "type": "css"
+  },
+  {
+    "key": "usernamexpath",
+    "value": "(//input[@placeholder='Username'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "password",
+    "value": "input[placeholder='Password']",
+    "type": "css"
+  },
+  {
+    "key": "passwordxpath",
+    "value": "(//input[@placeholder='Password'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "girisYapBtn",
+    "value": ".css-175oi2r.r-1i6wzkk.r-lrvibr.r-1loqt21.r-1otgn73.r-1awozwy.r-169ebfh.r-z2wwpe.r-h3s6tt.r-1777fci.r-tsynxw.r-13qz1uu",
+    "type": "css"
+  },
+  {
+    "key": "girisYapBtnxpath",
+    "value": "(//div[@class='css-175oi2r r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-169ebfh r-z2wwpe r-h3s6tt r-1777fci r-tsynxw r-13qz1uu'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "logout",
+    "value": ".css-146c3p1.r-jwli3a.r-vw2c0b.r-1d4mawv",
+    "type": "css"
+  },
+  {
+    "key": "logoutxpath",
+    "value": "(//div[@class='css-146c3p1 r-jwli3a r-vw2c0b r-1d4mawv'])[1]",
+    "type": "xpath"
+  },{
+  "key": "MoneyTransferButton",
+  "value": ".css-146c3p1.r-jwli3a.r-1b43r93",
+  "type":"css"
+},{
+  "key": "createAccountButton",
+  "value": "div[class='css-175oi2r r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-169ebfh r-z2wwpe r-1777fci r-tsynxw r-16l9doz r-edyy15 r-iyfy8q'] div[class='css-146c3p1 r-jwli3a r-1b43r93']",
+  "type":"css"
+},{
+  "key": "dropdownMenu",
+  "value": "div[class='css-175oi2r r-1777fci'] select",
+  "type":"css"
+},{
+  "key": "CreateButton",
+  "value": "div[class='css-175oi2r r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-169ebfh r-z2wwpe r-h3s6tt r-1777fci r-tsynxw r-13qz1uu']",
+  "type":"css"
+},{
+  "key": "accountCrateName",
+  "value": ".css-11aywtz.r-6taxm2.r-1eh6qqt.r-z2wwpe.r-rs99b7.r-h3s6tt.r-1qhn6m8",
+  "type":"css"
+}
+
+
+]

@@ -1,0 +1,139 @@
+# Kullanıcı adı kısmına <username> ve <parola> değerini yazarak login ol
+* "username" li elementin merkezine tıkla
+* "username" li elementi bul, temizle ve <username> değerini yaz
+* "password" li elementin merkezine tıkla
+* "password" li elementi bul, temizle ve <parola> değerini yaz
+* "girisYapBtn" li elementin merkezine tıkla
+* "2" saniye bekle
+
+# <url> adresine gidilir
+* <url> adresine gider
+
+# <key> yazısının ekranında göründüğü doğrulanır
+* Sayfa kaynağında <key> kelimesinin bulunduğu doğrulanır
+
+# Sistemden çıkış yap
+*"logout" li elementin merkezine tıkla
+* Sayfa başlığında "login" kelimesinin bulunduğu doğrulanır
+
+# Uygulama ana ekranına gidilir
+* "MoneyTransferButton" li elementin merkezine tıkla
+* Sayfa başlığında "money-transfer" kelimesinin bulunduğu doğrulanır
+* "2" saniye bekle
+
+# Saving Account oluştur
+* Sayfa kaynağında "You don't have any account yet!" kelimesinin bulunduğu doğrulanır
+* "createAccountButton" li elementin merkezine tıkla
+* Sayfada "CreateButton" tiklanabilir button kontrolü
+* "dropdownMenu" li elementin merkezine tıkla
+* "Saving account" yazısını bul ve tıkla
+* "2" saniye bekle
+* "accountCrateName" li elementi bul, temizle ve "SenaSaving" değerini yaz
+* "2" saniye bekle
+* Sayfada "CreateButton" tiklanabilir button kontrolü
+* "CreateButton" li elementin merkezine tıkla
+* Sayfa kaynağında "You don't have any account yet!" kelimesi bulunursa hatalı test mesajı ver
+
+# Account ismi sadece sayı gir
+* Sayfa kaynağında "You don't have any account yet!" kelimesinin bulunduğu doğrulanır
+* "createAccountButton" li elementin merkezine tıkla
+* Sayfada "CreateButton" tiklanabilir button kontrolü
+* "dropdownMenu" li elementin merkezine tıkla
+* "Checking account" yazısını bul ve tıkla
+* "accountCrateName" li elementi bul, temizle ve "123456" değerini yaz
+* "CreateButton" li elementin merkezine tıkla
+* "2" saniye bekle
+* Sayfa kaynağında "My account" kelimesi bulunursa hatalı test mesajı ver
+
+# Checking Account oluştur
+* Sayfa kaynağında "You don't have any account yet!" kelimesinin bulunduğu doğrulanır
+* "createAccountButton" li elementin merkezine tıkla
+* Sayfada "CreateButton" tiklanabilir button kontrolü
+* "dropdownMenu" li elementin merkezine tıkla
+* "Checking account" yazısını bul ve tıkla
+* "accountCrateName" li elementi bul, temizle ve "SenaChecking" değerini yaz
+* "CreateButton" li elementin merkezine tıkla
+* "2" saniye bekle
+* Sayfa kaynağında "My account" kelimesinin bulunduğu doğrulanır
+* Sayfa elemanı "myAccountArea" beklenen "Account name" metnini içeriyor mu kontrol et
+
+# Hesap ismi <key> ile değiştir
+* "editButton" li elementin merkezine tıkla
+* "accountCrateName" li elementi bul, temizle ve <key> değerini yaz
+* "1" saniye bekle
+* "updateButton" li elementin merkezine tıkla
+* Sayfa elemanı "myAccountArea" beklenen <key> metnini içeriyor mu kontrol et
+
+# Hesap ismi sayi <key> ile değiştir
+* "editButton" li elementin merkezine tıkla
+* "accountCrateName" li elementi bul, temizle ve <key> değerini yaz
+* "1" saniye bekle
+* "updateButton" li elementin merkezine tıkla
+* Sayfa kaynağında <key> kelimesi bulunursa hatalı test mesajı ver
+
+# Hesap ismini boş bırak
+* "editButton" li elementin merkezine tıkla
+* "accountCrateName" li elementi bul ve klavye ile temizle
+* "1" saniye bekle
+* "accountCrateName" li elementi bul ve "" değerini yaz
+* "2" saniye bekle
+* Sayfada "updateButton" tiklanabilir button kontrolü
+
+# Transfer Money sayfasına gidilir
+* "transferMoneyButton" li elementin merkezine tıkla
+* Sayfa kaynağında "Transfer money" kelimesinin bulunduğu doğrulanır
+
+# Para <Receiver> seçilerek <miktar> gönderilir
+* "transferMoneyButton" li elementin merkezine tıkla
+* Sayfa kaynağında "Transfer money" kelimesinin bulunduğu doğrulanır
+* "receiverDropdown" li elementin merkezine tıkla
+* "transferMoneyArea" alanında <Receiver> bul ve tıkla
+* Hata mesajı kontrol edilir
+* "amountTextbox" li elementi bul, temizle ve <miktar> değerini yaz
+* "sendButton" li elementin merkezine tıkla
+* "2" saniye bekle
+* Sayfa elemanı "transactionReceiver" beklenen <Receiver> metnini içeriyor mu kontrol et
+* "2" saniye bekle
+* Sayfa elemanı "transactionAmount" beklenen <miktar> metnini içeriyor mu kontrol et
+
+# Para <miktar> girilerek gönderilir
+* "transferMoneyButton" li elementin merkezine tıkla
+* Sayfa kaynağında "Transfer money" kelimesinin bulunduğu doğrulanır
+* "amountTextbox" li elementi bul, temizle ve <miktar> değerini yaz
+* "sendButton" li elementin merkezine tıkla
+* Sayfa elemanı "transactionReceiver" beklenen "Testinium-1" metnini içeriyor mu kontrol et
+* "2" saniye bekle
+* Sayfa elemanı "transactionAmount" beklenen <miktar> metnini içeriyor mu kontrol et
+
+# Para negatif <miktar> girilerek gönderilir
+* "transferMoneyButton" li elementin merkezine tıkla
+* Sayfa kaynağında "Transfer money" kelimesinin bulunduğu doğrulanır
+* "amountTextbox" li elementi bul, temizle ve <miktar> değerini yaz
+* "sendButton" disable olduğuna dair kontrol
+
+# Add Money sayfasına gidilir
+* "addMoneyButton" li elementin merkezine tıkla
+* Sayfa kaynağında "Add money" kelimesinin bulunduğu doğrulanır
+
+# Para ekleme tüm bilgiler girerek yollanır
+* "addMoneyButton" li elementin merkezine tıkla
+* Sayfa kaynağında "Add money" kelimesinin bulunduğu doğrulanır
+* "2" saniye bekle
+* "cardNumberBox" li elementin merkezine tıkla
+* "cardNumberBox" li elementi bul, temizle ve "1234123412341234" değerini yaz
+* "cardHolderBox" li elementi bul, temizle ve "Sena Ordu" değerini yaz
+* "expiryDateBox" li elementi bul, temizle ve "1026" değerini yaz
+* "cvvBox" li elementi bul, temizle ve "110" değerini yaz
+* "amountAddButton" li elementi bul, temizle ve "500" değerini yaz
+* "addButton" li elementin merkezine tıkla
+* Sayfa elemanı "transactionAddMoney" beklenen "500" metnini içeriyor mu kontrol et
+
+
+
+
+
+
+
+
+
+
