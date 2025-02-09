@@ -62,7 +62,7 @@ Bu proje, bir para transferi uygulamasının test süreçlerini otomasyon ile do
    ```
 2. **Etiketli testleri çalıştırmak için** (örneğin, login senaryosu için):
    ```bash
-   gauge run specs/ --tags "Tüm Senaryolar"
+   gauge run specs/ --tags "login"
    ```
 
 
